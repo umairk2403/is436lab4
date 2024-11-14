@@ -1,32 +1,62 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UMBC IS Department - Home</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <h1>UMBC Information Systems Department</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="undergraduate.html">Undergraduate Program</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <h2>Welcome to the Information Systems Department</h2>
-            <p>Explore our programs, faculty, and research initiatives at UMBC's IS department. Join us in shaping the future of information technology.</p>
-            <img src="images/department.jpg" alt="UMBC IS Department">
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 UMBC Information Systems Department</p>
-    </footer>
-</body>
-</html>
 
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>UMBC IS Department</title>
+</head>
+
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="https://umbc.edu/wp-content/uploads/2022/02/umbc-primary-logo-250x58.png" alt="UMBC Logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="undergraduate.html">Undergraduate Program</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="container">
+      <h1>Welcome to UMBC Information Systems</h1>
+      <p>Your gateway to an impactful career in Information Technology and Systems, blending innovation with practical experience.</p>
+    </div>
+  </section>
+
+  <!-- Information Sections -->
+  <section class="info-section">
+    <div class="container">
+      <div class="section-heading">
+        <h2>Programs and Opportunities</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <h3>Undergraduate Program</h3>
+          <p>Our undergraduate program prepares students with essential skills in information systems, bridging technology and real-world applications.</p>
+          <a href="undergraduate.html" class="btn btn-outline-primary">Learn More</a>
+        </div>
+        <div class="col-md-4">
+          <h3>Graduate Program</h3>
+          <p>Advance your knowledge with specialized graduate programs in data science, cybersecurity, and more, suited for evolving IT demands.</p>
+          <a href="graduate.html" class="btn btn-outline-primary">Explore Graduate Studies</a>
+        </div>
+        <div class="col-md-4">
+          <h3>Research & Innovation</h3>
+          <p>Join innovative research projects that address global IT challenges and prepare for leadership roles in the tech industry.</p>
+          <a href="research.html" class="btn btn-outline-primary">Discover Research</a>
+  

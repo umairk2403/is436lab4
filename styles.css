@@ -1,119 +1,59 @@
-/* Reset basic styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
-
-/* General body styling */
+/* Basic styling */
 body {
-    background-color: #f4f4f9;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
     color: #333;
-    line-height: 1.6;
-}
-
-/* Header styling */
-header {
-    background-color: #00457c;
+  }
+  
+  .navbar {
+    background-color: black;
+  }
+  
+  .navbar-brand img {
+    height: 45px;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #ffcc00 !important;
+  }
+  
+  .hero-section {
+    background-color: black;
     color: #fff;
-    padding: 1rem;
+    padding: 3rem 0;
     text-align: center;
-}
-
-header h1 {
-    font-size: 1.8rem;
-    margin-bottom: 0.5rem;
-}
-
-header nav ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    margin-top: 0.5rem;
-}
-
-header nav ul li {
-    margin: 0 1rem;
-}
-
-header nav ul li a {
-    color: #fff;
-    text-decoration: none;
+  }
+  
+  .hero-section h1 {
+    font-size: 2.8rem;
     font-weight: bold;
-}
-
-header nav ul li a:hover {
-    text-decoration: underline;
-}
-
-/* Main content styling */
-main {
+  }
+  
+  .hero-section p {
+    font-size: 1.2rem;
     max-width: 800px;
-    margin: 2rem auto;
-    padding: 1rem;
-    background-color: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-section h2 {
-    color: #00457c;
-    margin-bottom: 1rem;
-    font-size: 1.5rem;
-}
-
-/* List styling for program details */
-ul {
-    list-style-type: disc;
-    padding-left: 1.5rem;
-}
-
-/* Footer styling */
-footer {
-    background-color: #00457c;
-    color: #fff;
+    margin: 1rem auto;
+  }
+  
+  .section-heading {
     text-align: center;
-    padding: 1rem;
-    font-size: 0.9rem;
-    margin-top: 2rem;
-}
-
-/* Form styling */
-form {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-}
-
-form label {
-    font-weight: bold;
-}
-
-form input[type="text"],
-form input[type="email"],
-form textarea {
-    padding: 0.5rem;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-form button {
-    padding: 0.7rem;
-    background-color: #00457c;
+    padding: 2rem 0;
+    color: black;
+  }
+  
+  .info-section, .form-section {
+    padding: 3rem 0;
+    background-color: #ffffff;
+    border-top: 1px solid #e0e0e0;
+  }
+  
+  footer {
+    background-color: black;
     color: #fff;
-    border: none;
-    border-radius: 4px;
-    font-size: 1rem;
-    cursor: pointer;
-}
-
-form button:hover {
-    background-color: #003366;
-}
-
-/* Image styling */
-img {
-    max-width: 100%;
-    height: auto;
-    margin-top: 1rem;
-}
+    padding: 2rem 0;
+  }
+  
+  footer a {
+    color: #ffcc00;
+  }
+  
